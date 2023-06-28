@@ -6,7 +6,6 @@ import 'HomeScreen/Home_view.dart';
 void main() {
   runApp(
     GetMaterialApp(
-      theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
       routes: {
         '/':(context) => HomeScreen()
